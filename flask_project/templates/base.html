@@ -17,36 +17,79 @@
 
 </head>
 <body class="css-selector">
-    <section class="nav-wrapper">
-        <div class="nav-logo-name"><a href="{{ url_for('home') }}">Beauty Studio Style</a></div>
-        <nav class="topnav">
-            <ul class="nav-list">
-                <li class="not-dropdown"><a href="{{ url_for('home') }}">Начало</a></li>
-                <li class="not-dropdown"><a href="{{ url_for('pricing') }}">Цени</a></li>
-                <li class="dropdown" id="dropdown-last-item">
-                    <a class="drop-btn" id="services-btn" href="#">Услуги <i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="dropdown-content">
-                        <li><a href="#">За Нас</a></li>
-                        <li><a href="#">Контакти</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown" id="dropdown-more">
-                    <a class="drop-btn" id="more-btn" href="#">Още <i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="dropdown-content">
-                        <li><a href="#">За Нас</a></li>
-                        <li><a href="#">Контакти</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        <div class="location">
-            <div class="street">
-                <p>Пловдив</p>
-                <p>ул.Браила 8</p>
-            </div>
-            <div class="loc-img"><i class="fa-solid fa-location-dot"></i></div>
+<section class="nav-wrapper">
+    <div class="nav-logo-name"><a href="{{ url_for('home') }}">Beauty Studio Style</a></div>
+    <nav>
+        <ul class="nav-list">
+            <li class="not-dropdown">
+                <a class="main-btn" href="#">Начало</a>
+            </li>
+
+            <li class="not-dropdown">
+                <a class="main-btn" href="#">Цени</a>
+            </li>
+
+            <li class="dropdown">
+                <a class="main-btn" href="#">Услуги <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="dropdown-content-level-one">
+                    <li class="dropdown">
+                        <a href="#">Фризьорски услуги <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="dropdown-content-level-two">
+                            <li class="dropdown">
+                                <a href="#">Подстригване</a>
+                                <ul class="dropdown-content-level-three">
+                                    <li class="not-dropdown">
+                                        <a href="#">Мъжко</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Дамско</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Детско</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="not-dropdown">
+                                <a href="#">Стилиране</a>
+                            </li>
+                            <li class="not-dropdown">
+                                <a href="#">Боядисване</a>
+                            </li>
+                            <li class="not-dropdown">
+                                <a href="#">Екстеншъни</a>
+                            </li>
+                            <li class="not-dropdown">
+                                <a href="#">Третиране</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="not-dropdown">
+                        <a href="#">Грижа за ноктите</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Още</a>
+                <ul class="dropdown-content-level-one">
+                    <li class="not-dropdown">
+                        <a href="#">За нас</a>
+                    </li>
+                    <li class="not-dropdown">
+                        <a href="#">Контакти</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="location">
+        <div class="street">
+            <p>Пловдив</p>
+            <p>ул.Браила 8</p>
         </div>
-    </section>
+        <div class="loc-img"><i class="fa-solid fa-location-dot"></i></div>
+    </div>
+</section>
 {% block content %}
 {% endblock %}
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
