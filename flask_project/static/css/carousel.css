@@ -1,0 +1,177 @@
+.carousel-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.carousel-item {
+    height: 500px;
+    background: transparent;
+}
+
+.carousel-item:nth-child(odd) {
+    background: black;
+}
+
+.hair-img-wrapper0 {
+    display: block;
+    width: 51%;
+    position: absolute;
+    left: 120%;
+    top: -121%;
+}
+
+.hair-img-wrapper0 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.hair-img-wrapper1 {
+    display: block;
+    width: 50%;
+    position: absolute;
+    left: 53%;
+}
+
+.hair-img-wrapper1 img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.hair-img-wrapper2 {
+    width: 200px;
+    display: block;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+
+}
+
+.hair-img-wrapper2 img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+.hair-img-wrapper3 {
+    display: block;
+    width: 200px;
+    position: absolute;
+    left: 36%;
+    border-radius: 9px
+}
+
+.hair-img-wrapper3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+.hair-img-wrapper4 {
+    display: block;
+    width: 200px;
+    position: absolute;
+    border-radius: 9px;
+    top: -4%;
+    left: 52%;
+}
+
+.hair-img-wrapper4 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+.hair-img-wrapper5 {
+    display: block;
+    width: 200px;
+    position: absolute;
+    border-radius: 9px;
+    left: 26%;
+    top: 53%;
+}
+
+.hair-img-wrapper5 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+.carousel-caption1 {
+    display: block;
+    position: absolute;
+    left: 1%;
+    top: 36%;
+}
+
+.carousel-caption1 p {
+    width: 400px;
+    font-size: 22px;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.carousel-caption1 h1 {
+    width: 400px;
+    color: white;
+}
+
+.carousel-caption-start {
+    display: block;
+    position: absolute;
+    left: 1%;
+    top: 36%;
+}
+
+.carousel-caption-start h1 {
+    text-transform: uppercase;
+    font-size: 61px;
+    color: white;
+    font-weight: 500;
+}
+
+.carousel-caption-start p {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    padding-top: 18px;
+}
+
+.manicure-img-wrapper {
+    display: block;
+    position: absolute;
+    width: 751px;
+    left: 62%;
+}
+
+.manicure-img-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.carousel-caption-end {
+    display: block;
+    position: absolute;
+    top: 42%;
+    left: 1%;
+    width: 550px;
+}
+
+
+
+.carousel-item:nth-child(3) {
+    background: transparent;
+}
+
+.carousel-caption-end h1 {
+    color: white;
+}
+
+.carousel-caption-end p {
+    font-size: 28px;
+    color: gray;
+    margin-top: 15px;
+}
