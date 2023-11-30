@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/background.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/carousel.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/second-carousel.css') }}"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/69d933cef6.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='js/nav.js') }}" defer></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/second-carousel.js') }}" defer></script>
 
 
 </head>
@@ -37,7 +38,7 @@
                         <a href="#">Фризьорски услуги <i class="fa-solid fa-angle-down"></i></a>
                         <ul class="dropdown-content-level-two">
                             <li class="dropdown">
-                                <a href="#">Подстригване</a>
+                                <a href="#">Подстригване <i class="fa-solid fa-angle-down"></i></a>
                                 <ul class="dropdown-content-level-three">
                                     <li class="not-dropdown">
                                         <a href="#">Мъжко</a>
@@ -50,28 +51,137 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="not-dropdown">
-                                <a href="#">Стилиране</a>
+                            <li class="dropdown">
+                                <a href="#">Стилиране <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown-content-level-three">
+                                    <li class="not-dropdown">
+                                        <a href="#">Hairstyles</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Hairstyles</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Wedding Hairstyles</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Wedding Hairstyles for guests</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Hairstyles for prom</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Hair braiding</a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="not-dropdown">
-                                <a href="#">Боядисване</a>
+                            <li class="dropdown">
+                                <a href="#">Боядисване <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown-content-level-three">
+                                    <li class="not-dropdown">
+                                        <a href="#">Highlighting</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">California highlights</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Ombre</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Balayage</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Airtouch</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Darkening the roots</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Coloring</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Toning</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Shatush</a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="not-dropdown">
-                                <a href="#">Екстеншъни</a>
+                            <li class="dropdown">
+                                <a href="#">Екстеншъни <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown-content-level-three">
+                                    <li class="not-dropdown">
+                                        <a href="#">Spanish</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Microcapsular</a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="not-dropdown">
-                                <a href="#">Третиране</a>
+                            <li class="dropdown">
+                                <a href="#">Третиране <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown-content-level-three">
+                                    <li class="not-dropdown">
+                                        <a href="#">Keratin straightening</a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </li>
-                    <li class="not-dropdown">
-                        <a href="#">Грижа за ноктите</a>
+                    <li class="dropdown">
+                        <a href="#">Грижа за ноктите <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="dropdown-content-level-two">
+                            <li class="dropdown">
+                                <a href="#">Manicure <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown-content-level-three">
+                                    <li class="not-dropdown">
+                                        <a href="#">Machine</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Combined</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Wedding</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Shellac Nail Treatment <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown-content-level-three">
+                                    <li class="not-dropdown">
+                                        <a href="#">Gel Polish Removal</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="not-dropdown">
+                                <a href="#">Nail Extension</a>
+                            </li>
+                            <li class="not-dropdown">
+                                <a href="#">Nail Extension Correction</a>
+                            </li>
+                            <li class="not-dropdown">
+                                <a href="#">Nail Airbrushing</a>
+                            </li>
+                            <li class="not-dropdown">
+                                <a href="#">Pedicure</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Podiastrist <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown-content-level-three">
+                                    <li class="not-dropdown">
+                                        <a href="#">Classic Pedicure</a>
+                                    </li>
+                                    <li class="not-dropdown">
+                                        <a href="#">Machine Pedicure</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </li>
 
             <li class="dropdown">
-                <a href="#">Още</a>
+                <a href="#">Още <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="dropdown-content-level-one">
                     <li class="not-dropdown">
                         <a href="#">За нас</a>
@@ -110,8 +220,10 @@
                 <div class="container">
                     <div class="carousel-caption-start">
                         <h1>Beauty Studio Style</h1>
-                        <p class="opacity-75">Ние правим всичко възможно по силите си, за да може да се почувстваш уверен и атрактивен</p>
-                        <span class="hair-img-wrapper0"><img src="../static/images/fashion-model7.jpg" alt="img"/></span>
+                        <p class="opacity-75">Ние правим всичко възможно по силите си, за да може да се почувстваш
+                            уверен и атрактивен</p>
+                        <span class="hair-img-wrapper0"><img src="../static/images/fashion-model7.jpg"
+                                                             alt="img"/></span>
                     </div>
                 </div>
             </div>
@@ -146,6 +258,71 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+    </div>
+</section>
+<section class="service-and-price-text">
+    <p>Какво можем да предложим</p>
+    <h3>Услуги и цени</h3>
+</section>
+<section class="second-carousel-wrapper">
+    <div class="carousel-container">
+        <div class="carousel-view">
+            <button id="prev-btn" class="prev-btn">
+                <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
+                    <path d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"/>
+                </svg>
+            </button>
+            <div id="item-list" class="item-list">
+                <a class="item-link" href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_after_style">
+                    <img id="item" class="item" src="../static/images/hair-model8.jpg" alt="hair-model"/>
+                    <div class="inner-service-text">
+                        <p>Подстригване</p>
+                        <p>Стилиране</p>
+                        <p>Прически</p>
+                    </div>
+                    <span class="square-icon"></span>
+                    <span class="plus-icon"><i class="fa-sharp fa-thin fa-plus"></i></span>
+
+                </a>
+                <a class="item-link" href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_after_style">
+                    <img id="item" class="item"
+                         src="../static/images/hair-model.jpg" alt="hair-dying"/>
+                    <div class="inner-service-text">
+                        <p>Всички видове</p>
+                        <p>боядисване</p>
+                    </div>
+                    <span class="square-icon"></span>
+                    <span class="plus-icon"><i class="fa-sharp fa-thin fa-plus"></i></span>
+                </a>
+                <a class="item-link" href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_after_style">
+                    <img id="item" class="item"
+                         src="../static/images/hair-treatment3.jpg" alt="hair-therapy"/>
+                    <div class="inner-service-text">
+                        <p>Грижа за коса &</p>
+                        <p>Терапия</p>
+                    </div>
+                    <span class="square-icon"></span>
+                    <span class="plus-icon"><i class="fa-sharp fa-thin fa-plus"></i></span>
+                </a>
+                <a class="item-link" href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_after_style">
+                    <img id="item" class="item"
+                         src="../static/images/manicure.jpg" alt="manicure"/>
+                    <div class="inner-service-text">
+                        <p>Маникюр</p>
+                        <p>Педикюр</p>
+                    </div>
+                    <span class="square-icon"></span>
+                    <span class="plus-icon"><i class="fa-sharp fa-thin fa-plus"></i></span>
+                </a>
+
+
+            </div>
+            <button id="next-btn" class="next-btn">
+                <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
+                    <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"/>
+                </svg>
+            </button>
+        </div>
     </div>
 </section>
 {% block content %}
