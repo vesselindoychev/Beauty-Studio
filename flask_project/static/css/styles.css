@@ -1,0 +1,50 @@
+html {
+    height: 100%
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: auto;
+    font-family: 'Times New Roman', 'sa', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: gray;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #f2abb4;   /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+    /* creates padding around scroll thumb */
+}
+
+/* Section under first carousel */
+.service-and-price-text {
+    background: white;
+    padding-bottom: 9px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.service-and-price-text p {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #e2af48;
+    letter-spacing: 1px;
+}
+
+.service-and-price-text h3 {
+    font-weight: bold;
+    font-size: 46px;
+    letter-spacing: 1px;
+}
