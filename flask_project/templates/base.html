@@ -24,7 +24,7 @@
     <nav>
         <ul class="nav-list">
             <li class="not-dropdown">
-                <a class="main-btn" href="#">Начало</a>
+                <a class="main-btn" href="{{ url_for('dashboard') }}">Начало</a>
             </li>
 
             <li class="not-dropdown">
@@ -201,137 +201,7 @@
         <div class="loc-img"><i class="fa-solid fa-location-dot"></i></div>
     </div>
 </section>
-<section class="carousel-wrapper">
-    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
-                    aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
-                    class=""></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active"
-                    aria-current="true"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                </svg>
-                <div class="container">
-                    <div class="carousel-caption-start">
-                        <h1>Beauty Studio Style</h1>
-                        <p class="opacity-75">Ние правим всичко възможно по силите си, за да може да се почувстваш
-                            уверен и атрактивен</p>
-                        <span class="hair-img-wrapper0"><img src="../static/images/fashion-model7.jpg"
-                                                             alt="img"/></span>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item active carousel-item-start">
-                <span class="hair-img-wrapper1"><img src="../static/images/hair-model2.jpg" alt="img"/></span>
-                <span class="hair-img-wrapper2"><img src="../static/images/hair-model3.jpg" alt="img"/></span>
-                <span class="hair-img-wrapper3"><img src="../static/images/hair-model4.jpg" alt="img"/></span>
-                <span class="hair-img-wrapper4"><img src="../static/images/hair-model5.jpg" alt="img"/></span>
-                <span class="hair-img-wrapper5"><img src="../static/images/hair-model6.jpg" alt="img"/></span>
-                <div class="container">
-                    <div class="carousel-caption1">
-                        <p>Довери се на професионалистите</p>
-                        <h1>Боядисване на коса, независимо от степента на сложност</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item carousel-item-next carousel-item-start">
-                <span class="manicure-img-wrapper"><img src="../static/images/manicure1.jpg" alt="manicure"/></span>
-                <div class="container">
-                    <div class="carousel-caption-end">
-                        <h1>Перфектен маникюр</h1>
-                        <p>Старателна грижа за вашите нокти, извършена прецизно от нашите маникюристи</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</section>
-<section class="service-and-price-text">
-    <p>Какво можем да предложим</p>
-    <h3>Услуги и цени</h3>
-</section>
-<section class="second-carousel-wrapper">
-    <div class="carousel-container">
-        <div class="carousel-view">
-            <button id="prev-btn" class="prev-btn" disabled>
-                <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
-                    <path d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"/>
-                </svg>
-            </button>
-            <div id="item-list" class="item-list">
-                <a class="item-link" href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_after_style">
-                    <img id="item" class="item" src="../static/images/hair-model8.jpg" alt="hair-model"/>
-                    <div class="inner-service-text">
-                        <p>Подстригване</p>
-                        <p>Стилиране</p>
-                        <p>Прически</p>
-                    </div>
-                    <span class="square-icon"></span>
-                    <span class="plus-icon"><i class="fa-sharp fa-thin fa-plus"></i></span>
 
-                </a>
-                <a class="item-link" href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_after_style">
-                    <img id="item" class="item"
-                         src="../static/images/hair-model.jpg" alt="hair-dying"/>
-                    <div class="inner-service-text">
-                        <p>Всички видове</p>
-                        <p>боядисване</p>
-                    </div>
-                    <span class="square-icon"></span>
-                    <span class="plus-icon"><i class="fa-sharp fa-thin fa-plus"></i></span>
-                </a>
-                <a class="item-link" href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_after_style">
-                    <img id="item" class="item"
-                         src="../static/images/hair-treatment3.jpg" alt="hair-therapy"/>
-                    <div class="inner-service-text">
-                        <p>Грижа за коса &</p>
-                        <p>Терапия</p>
-                    </div>
-                    <span class="square-icon"></span>
-                    <span class="plus-icon"><i class="fa-sharp fa-thin fa-plus"></i></span>
-                </a>
-                <a class="item-link" href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_after_style">
-                    <img id="item" class="item"
-                         src="../static/images/manicure.jpg" alt="manicure"/>
-                    <div class="inner-service-text">
-                        <p>Маникюр</p>
-                        <p>Педикюр</p>
-                    </div>
-                    <span class="square-icon"></span>
-                    <span class="plus-icon"><i class="fa-sharp fa-thin fa-plus"></i></span>
-                </a>
-
-
-            </div>
-            <button id="next-btn" class="next-btn">
-                <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
-                    <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"/>
-                </svg>
-            </button>
-        </div>
-    </div>
-</section>
-<div class="first-pag-line" id="first-line"></div>
-<div class="second-pag-line" id="second-line"></div>
-<div class="pagination-items">
-    <p id="first-pag-item">1</p>
-    <p id="slash">/</p>
-    <p id="second-pag-item">2</p>
-</div>
 
 {% block content %}
 {% endblock %}
