@@ -1,6 +1,7 @@
 html {
     height: 100%
 }
+
 *,
 *::before,
 *::after {
@@ -15,16 +16,16 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 5px;               /* width of the entire scrollbar */
+    width: 5px; /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: gray;        /* color of the tracking area */
+    background: gray; /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #f2abb4;   /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
+    background: #f2abb4; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
     /* creates padding around scroll thumb */
 }
 
@@ -47,4 +48,46 @@ body::-webkit-scrollbar-thumb {
     font-weight: bold;
     font-size: 46px;
     letter-spacing: 1px;
+}
+
+.first-pag-line {
+    display: block;
+    position: relative;
+    height: 3px;
+    background: pink;
+    bottom: 92px;
+    width: 31%;
+    left: 19%;
+}
+
+.second-pag-line {
+    display: block;
+    position: relative;
+    height: 3px;
+    background: gray;
+    bottom: 95px;
+    width: 31%;
+    left: 50%;
+}
+
+.pagination-items {
+    display: flex;
+    position: relative;
+    bottom: 86px;
+    left: 49%;
+    width: 120px;
+    margin-top: 8px;
+}
+
+.pagination-items p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#first-pag-item {
+    margin-right: 3px;
+}
+
+#second-pag-item {
+    margin-left: 3px;
 }
