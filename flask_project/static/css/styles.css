@@ -116,6 +116,8 @@ body::-webkit-scrollbar-thumb {
     font-size: 20px;
     text-transform: uppercase;
     color: #c48d4d;
+    letter-spacing: 1px;
+    padding-left: 2px;
 }
 
 #instagram-link-second-p {
@@ -198,8 +200,9 @@ body::-webkit-scrollbar-thumb {
     font-weight: 400;
     font-size: 20px;
     position: relative;
-    right: 600px;
+    right: 596px;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .location-studio-dropdown {
@@ -251,10 +254,98 @@ body::-webkit-scrollbar-thumb {
     padding: 0;
     font-weight: bold;
 }
+
 .location-options p:hover {
     color: #c48d4d;
 }
 
 .google-map iframe {
     width: 75%;
+}
+
+.network-salon {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.network-salon .welcome-text {
+    width: 50%;
+    text-align: center;
+}
+
+.network-salon .welcome-text p:nth-child(1) {
+    color: #c48d4d;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.network-salon .welcome-text h3 {
+    font-weight: bold;
+    margin-bottom: 38px;
+    font-size: 33px;
+}
+
+.network-salon .welcome-text p {
+    font-size: 18px;
+}
+
+.network-salon .reasons {
+    width: 75%;
+    margin-top: 80px;
+    height: 856px;
+}
+
+.network-salon .reasons p {
+    font-size: 18px;
+}
+
+.network-salon .reasons h4 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.network-salon .reasons #reasons-first-p {
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+.network-salon .reasons #reasons-first-img {
+    width: 30%;
+    height: 500px;
+}
+
+.network-salon .reasons #reasons-first-img img, #reasons-second-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.network-salon .reasons #reasons-second-img {
+    position: relative;
+    width: 30%;
+    bottom: 1087px;
+    left: 964px;
+    height: 500px;
+}
+
+
+
+.network-salon .reasons #reasons-location-text {
+    width: 30%;
+    position: relative;
+    left: 484px;
+    bottom: 467px;
+}
+
+.network-salon .reasons #reasons-up-to-date {
+    position: relative;
+    width: 50%;
+    bottom: 361px;
+    left: 484px;
 }
