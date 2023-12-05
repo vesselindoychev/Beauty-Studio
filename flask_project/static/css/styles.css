@@ -335,7 +335,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-
 .network-salon .reasons #reasons-location-text {
     width: 30%;
     position: relative;
@@ -348,4 +347,50 @@ body::-webkit-scrollbar-thumb {
     width: 50%;
     bottom: 361px;
     left: 484px;
+}
+
+.different-services-bullets {
+    width: 75%;
+    margin-top: 43px;
+    height: 600px;
+}
+
+.different-services-bullets p {
+    color: #c48d4d;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.different-services-bullets h4 {
+    width: 50%;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.different-services-bullets ul {
+    padding-left: 40px;
+    font-size: 18px;
+    width: 50%;
+}
+
+.different-services-bullets ul li {
+    margin-bottom: 10px;
+}
+
+#different-services-img {
+    width: 29%;
+    height: 500px;
+    bottom: 494px;
+    position: relative;
+    left: 953px;
+    border-radius: 8px;
+}
+
+#different-services-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
 }
