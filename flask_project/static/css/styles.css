@@ -394,3 +394,55 @@ body::-webkit-scrollbar-thumb {
     object-fit: contain;
     border-radius: 8px;
 }
+
+.extended-service-list {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.extended-service-list #approach {
+    color: #c48d4d;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.extended-service-list h4 {
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.extended-service-list #hairdressing-service, #nail-service {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    padding: 25px 25px 0 26px;
+    align-items: stretch;
+    text-align: left;
+}
+
+.extended-service-list #hairdressing-service {
+    border-top: 2px solid #c48d4d;
+    border-bottom: 1px solid #c48d4d;
+}
+
+.extended-service-list #nail-service {
+    border-top: 1px solid #c48d4d;
+    border-bottom: 2px solid #c48d4d;
+
+}
+
+.extended-service-list .service-name {
+    font-size: 28px;
+    width: 26%;
+    text-transform: uppercase;
+}
+
+.extended-service-list .service-desc {
+    font-size: 18px;
+    width: 58%;
+}
