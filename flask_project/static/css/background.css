@@ -1,5 +1,6 @@
 .css-selector {
-    background: linear-gradient(270deg, #ee9ca7, #ffdde1);
+    /*background: linear-gradient(270deg, #ee9ca7, #ffdde1);*/
+    background: #f9f9f9;
     background-size: 400% 400%;
     -webkit-animation: AnimationName 39s ease infinite;
     -moz-animation: AnimationName 39s ease infinite;
