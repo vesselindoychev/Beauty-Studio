@@ -5,11 +5,14 @@
 
 .carousel-item {
     height: 500px;
-    background: transparent;
+    background: pink;
 }
-
 .carousel-item:nth-child(odd) {
     background: black;
+}
+
+.carousel-item:nth-child(3) {
+    background: pink;
 }
 
 .hair-img-wrapper0 {
@@ -158,12 +161,6 @@
     top: 42%;
     left: 1%;
     width: 550px;
-}
-
-
-
-.carousel-item:nth-child(3) {
-    background: transparent;
 }
 
 .carousel-caption-end h1 {
