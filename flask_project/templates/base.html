@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/background.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/carousel.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/second-carousel.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/69d933cef6.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/second-carousel.js') }}" defer></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}" defer></script>
 
 
 </head>
@@ -205,6 +207,29 @@
 
 {% block content %}
 {% endblock %}
+<footer>
+    <section>
+        <div class="logo">
+            <p id="first-p-logo">Style</p>
+            <p id="second-p-logo">Beauty Studio</p>
+        </div>
+        <div class="icons">
+            <a id="fb" href="https://www.facebook.com/profile.php?id=100063471765497" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a id="ig" href="https://www.instagram.com/friziorski_salon_style/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="contacts">
+            <a href="#">Контакти</a>
+            <a href="#">За нас</a>
+        </div>
+        <div class="footer-services">
+            <a href="#">Услуги</a>
+            <a href="#">Цени</a>
+        </div>
+    </section>
+    <div class="all-rights">
+        © 2023 Beauty Studio Style, Inc. All rights reserved.
+    </div>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
