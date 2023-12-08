@@ -6,6 +6,8 @@ footer {
     align-content: center;
     background: #0e0d0a;
     padding-bottom: 70px;
+    position: relative;
+    bottom: 0;
 }
 
 
