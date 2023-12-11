@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% block title %} <title>За Нас Beauty Studio Style</title> {% endblock %}
+    <section class="about-page-body">
+        <section class="about-page-wrapper">
+            <p id="home-about-text-p">Начало / <span>За Нас</span></p>
+            <article class="about-card">
+                <p id="">Какво трябва да знаеш за Beauty Studio Style</p>
+                <h3>Beauty Studio Style</h3>
+                <p><span>Beauty Studio Style</span> - висококачествени услуги на достъпни цени</p>
+                <p class="about-card-img"><img src="../static/images/result.png" alt="orange-model"></p>
+            </article>
+        </section>
+        <section class="about-services">
+            <article class="different-services-text">
+                <p>Правим различни видове процедури</p>
+                <h4>Добре запознати сме с всякакви видове боядисване, както и в извършването на перфектния маникюр.</h4>
+                <ul class="services-points">
+                    <li>Поправяме неуспешно оцветяване на косата.</li>
+                    <li>Възстановяваме косата с помощта на различни видове терапии.</li>
+                    <li>Подготвяме ви за специални събития.</li>
+                    <li>Драстично променяме или подобряваме вашия външен вид.</li>
+                    <li>Поддържаме вашата красота.</li>
+                    <li>Правим така, че да се чувствате винаги уверени и добре излеждащи след свършената от нас работа.</li>
+                </ul>
+            </article>
+            <article class="different-services-img">
+                <img src="{{ url_for('static', filename='images/special-event.jpg') }}" alt="shiny-hair">
+            </article>
+        </section>
+        <section class="peculiarity">
+            <h4>Отличителни качества</h4>
+            <article class="peculiarity-wrapper">
+                <div class="peculiarity-div-first">
+                    <i class="fa-solid fa-star"></i>
+                    <p>Винаги стерилизираме инсрументите за работа след всеки един клиент.</p>
+
+                    <i class="fa-solid fa-star"></i>
+                    <p>Нашата цел е не просто да изпълним дадена процедура, но и да ви посъветваме и дадем най-добрата опция точно за вас, като вземем
+                    предвид всички индивидуални особености и предпочитания за стил. Можете да се доверите напълно на нашите специалисти за вашите драстични промени.</p>
+
+                    <i class="fa-solid fa-star"></i>
+                    <p>Знаем, че никой не иска да прекарва много време в салона, затова извършваме по 2 услуги наведнъж, като се опитваме да спестим вашето време
+                    колкото се може повече.</p>
+                </div>
+                <div class="peculiarity-div-second">
+                    <i class="fa-solid fa-star"></i>
+                    <p>Използваме професионални сешоари, които не увреждат косата по време на стилиране и запазват естествения й блясък</p>
+
+                    <i class="fa-solid fa-star"></i>
+                    <p>Винаги следим всички нови продукти на пазара, като първо ги пробваме и след това избираме само тези, които дават реален резултат. Може да се доверите на нас когато
+                    избирате продукти за вкъщи.</p>
+
+                    <i class="fa-solid fa-star"></i>
+                    <p>Опитваме се да осигурим висок стандарт на работа затова и избираме да работим само с качествени продукти и материали - от козметика до оборудване.</p>
+                </div>
+            </article>
+        </section>
+    </section>
+{% endblock %}
