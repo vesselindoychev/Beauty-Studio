@@ -30,5 +30,5 @@ function onClick(event) {
     }
 }
 
-document.addEventListener('click', onClick)
+document.querySelector('.google-map').addEventListener('click', onClick)
 
