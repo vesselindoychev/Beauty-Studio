@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block title %} <title>Контакти Beauty Studio Style</title> {% endblock %}
+{% block content %}
+    <section class="contacts-body">
+        <section class="contacts-wrapper">
+            <p id="home-contacts-text-p">Начало / <span>Контакти</span></p>
+            <article class="phone-numbers">
+                <div class="worker-wrapper">
+                    <span class="worker-img-1"><img src="{{ url_for('static', filename='images/scissors.png') }}" alt="scissors"></span>
+                    <p><span>Фризьор:</span> Валя</p>
+                    <a href="tel:123-456"><i class="fa-solid fa-phone-volume"></i>+359 123 456 111</a>
+                </div>
+                <div class="worker-wrapper">
+                    <span class="worker-img-2"><img src="{{ url_for('static', filename='images/nail-polish2.png') }}" alt="nail-polish"></span>
+                    <p><span>Маникюрист:</span> Стела</p>
+                    <a href="tel:123-456"><i class="fa-solid fa-phone-volume"></i>+359 321 654 111</a>
+                </div>
+            </article>
+            <article class="working-time-wrapper">
+                <p class="working-time-text">Работно време</p>
+                <p class="working-days">Понеделник - Събота</p>
+                <p class="working-hour">07:00 - 19:00</p>
+                <p class="rest-day">Неделя</p>
+                <p class="rest-day-hour">Почивен ден</p>
+            </article>
+            <div class="contacts-services">
+                <a href="{{ url_for('pricing') }}">Услуги</a>
+            </div>
+            <div class="contacts-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2957.7566590639512!2d24.741032112003!3d42.15549384788045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14acd194263ed1db%3A0xa4ce1caf68c645e0!2z0YPQuy4g4oCe0JHRgNCw0LjQu9Cw4oCcIDgsIDQwMDMg0JrRitGA0YjQuNGP0LrQsCwg0J_Qu9C-0LLQtNC40LI!5e0!3m2!1sbg!2sbg!4v1702397472806!5m2!1sbg!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </section>
+{% endblock %}
